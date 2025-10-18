@@ -147,7 +147,7 @@
       var tag = json.tag;
       if (empty.indexOf(tag) > -1) {
         // empty element
-        return '<' + json.tag + attr + '/>';
+        return '<' + json.tag + attr + '>';
       }
 
       // non empty element
